@@ -3,7 +3,7 @@
 """
   Position consolidator, converts all held currency into the chosen currency
 
-  usage position_consolidator.py --endpoint 'http://localhost:8080' --apikey 'api_key1' --currency 'JPY'
+  usage position_consolidator.py --endpoint 'http://localhost:8080' --apikey 'api_key1' --currency 'CHF'
 """
 import argparse
 from fxbattleclient import FxClient, FxClientError
@@ -11,7 +11,7 @@ from time import sleep
 import random
 from math import ceil
 
-currencies=["GBP", "EUR", "JPY", "USD"]
+currencies=["GBP", "EUR", "CHF", "USD"]
 
 parser = argparse.ArgumentParser(description='Position consolidator')
 parser.add_argument('--endpoint',

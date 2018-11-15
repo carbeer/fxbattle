@@ -43,8 +43,8 @@ try:
           account = client.sell("GBPUSD", account["GBP"])
       elif "EUR" in account and account["EUR"] > 1:
           account = client.sell("EURGBP", account["EUR"])
-      elif "JPY" in account and account["JPY"] > 1:
-          account = client.sell("JPYGBP", account["JPY"])
+      elif "CHF" in account and account["CHF"] > 1:
+          account = client.sell("CHFGBP", account["CHF"])
       else:
           print("you're broke!")
 

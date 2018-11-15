@@ -80,7 +80,7 @@ Response:
     "EUR": 123.23,
     "GBP": 10000.00,
     "USD": 123.34,
-    "JPY": -12.0234
+    "CHF": -12.0234
 }
 ```
 
@@ -113,8 +113,8 @@ are equivalent.
 The fixed trading fee will always be applied. It is the same regardless of the
 currency of your trade, e.g. 10 GBP. The fee will be converted at the market rate
 and taken from the amount you are receiving. E.g. if you are selling 100 USD
-and expecting to receive 10000 JPY, and 1 GBP is 200 JPY, you will receive
-8000 JPY.
+and expecting to receive 10000 CHF, and 1 GBP is 200 CHF, you will receive
+8000 CHF.
 
 ## Trading tips
 

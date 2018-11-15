@@ -40,8 +40,8 @@ function makeRandomTrade() {
     if(account["EUR"] > 1) 
       return client.sell("EURGBP", account["EUR"]);
 
-    if(account["JPY"] > 1) 
-      return client.sell("JPYGBP", account["JPY"]);
+    if(account["CHF"] > 1) 
+      return client.sell("CHFGBP", account["CHF"]);
 
     throw "no funds";
   }).then(filterError).then(scheduleNextTrade, handleError);
